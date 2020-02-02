@@ -13,23 +13,23 @@ import { HomeRoutingModule } from "./home-routing.module";
 import { HomeComponent } from "./home.component";
 
 @NgModule({
-    imports: [
-        NativeScriptUISideDrawerModule,
-        NativeScriptUIListViewModule,
-        NativeScriptUICalendarModule,
-        NativeScriptUIChartModule,
-        NativeScriptUIDataFormModule,
-        NativeScriptUIAutoCompleteTextViewModule,
-        NativeScriptUIGaugeModule,
-        NativeScriptCommonModule,
-        HomeRoutingModule,
-        NativeScriptFormsModule
-    ],
-    declarations: [
-        HomeComponent
-    ],
-    schemas: [
-        NO_ERRORS_SCHEMA
-    ]
+  imports: [
+    NativeScriptUISideDrawerModule,
+    NativeScriptUIListViewModule,
+    NativeScriptUICalendarModule,
+    NativeScriptUIChartModule,
+    NativeScriptUIDataFormModule,
+    NativeScriptUIAutoCompleteTextViewModule,
+    NativeScriptUIGaugeModule,
+    NativeScriptCommonModule,
+    HomeRoutingModule,
+    NativeScriptFormsModule
+  ],
+  declarations: [
+    HomeComponent
+  ],
+  schemas: [
+    NO_ERRORS_SCHEMA
+  ]
 })
 export class HomeModule { }
